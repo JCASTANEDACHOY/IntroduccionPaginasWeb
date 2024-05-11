@@ -1,0 +1,31 @@
+/* styles.css */
+/* Agrega tus estilos personalizados aquí */
+
+/* Efecto de transición al pasar el ratón sobre los enlaces */
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #777;
+}
+
+/* Estilos para los artículos */
+article {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

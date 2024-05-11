@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias de Tecnología</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #777;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        article {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+
+        article h3 {
+            margin-top: 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Noticias de Tecnología</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#noticias">Noticias</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <h2>Bienvenido a nuestro sitio de noticias de tecnología</h2>
+        <p>Encuentra las últimas noticias sobre tecnología aquí, sitio 100% guatemalteco.</p>
+    </section>
+
+    <section id="noticias">
+        <h2>Últimas Noticias</h2>
+        <article>
+            <h3>El primer implante cerebral de Neuralink en humanos sufrió un problema</h3>
+            <p>la compañía reveló que varios hilos conectivos del chip se retrajeron del cerebro del sujeto Noland Arbaugh, lo que obstaculizó la velocidad de datos y la efectividad del implante. Pero la compañía dijo que pudo hacer que el implante fuera más sensible para aumentar aún más su rendimiento.</p>
+            <img src="neurolink.jpg" alt="dispositivo neuralink">
+            <a href="#">Leer más</a>
+        </article>
+        <article>
+            <h3>INCREIBLE! ¿Sabías que puedes oír el eclipse?</h3>
+            <p>Una nueva tecnología, denominada dispositivo LightSound, desarrollada por investigadores de Harvard, traduce los cambios de luz en sonidos, lo que permite a las personas con discapacidad visual o ciegas vivir el eclipse. Kiki Smith, coordinadora de recaudación de fondos y divulgación de la South East Area Coalition, muestra cómo funciona el dispositivo.</p>
+            <img src="dispositivo.jpg" height="100px" width="200px" alt="kiki.webp">
+            <a href="#">Leer más</a>
+        </article>
+        <!-- Agrega más noticias aquí -->
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Contáctanos para más información:</p>
+        <address>
+            infoteca<br>
+            Guatemala zona 10<br>
+            C.D Guatemala, Guatemala<br>
+            Teléfono: +502 1234-0101<br>
+            Email: infoteca@grupoumg.com
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Noticias de Tecnología</p>
+    </footer>
+</body>
+</html>
